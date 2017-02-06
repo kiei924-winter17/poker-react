@@ -8,6 +8,11 @@ var ReactDOM = require('react-dom')
 // .shuffle() shuffles (randomizes the order of) an array
 // e.g. [1,2,3,4,5].shuffle()
 // getDeck() gives us an array of cards, represented as strings
+// Hint: JavaScript's built-in .splice() function will remove elements from an
+// array to create a new array. For example, a "hand" from a deck of cards might
+// go something like this:
+//
+// deck.splice(0,5)
 var helpers = require('./components/Helpers')
 var getDeck = helpers.getDeck
 Array.prototype.shuffle = helpers.shuffle
@@ -24,19 +29,19 @@ var App = React.createClass({
         <h1>Welcome to the KIEI-924 Casino!</h1>
         <div className="row">
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/ace_of_hearts.png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/ace_of_hearts.png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/ace_of_hearts.png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/ace_of_hearts.png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/ace_of_hearts.png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
             <h1><a href="#" className="btn btn-success">Deal</a></h1>
