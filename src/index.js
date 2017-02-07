@@ -29,19 +29,19 @@ var App = React.createClass({
         <h1>Welcome to the KIEI-924 Casino!</h1>
         <div className="row">
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "face_down" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "face_down" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "face_down" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "face_down" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
-            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "ace_of_hearts" + ".png"} /></h1>
+            <h1><img className="img-responsive" src={"http://golearntocode.com/images/cards/" + "face_down" + ".png"} /></h1>
           </div>
           <div className="col-sm-2">
             <h1><a href="#" className="btn btn-success">Deal</a></h1>
